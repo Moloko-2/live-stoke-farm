@@ -1,0 +1,20 @@
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: beige;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
