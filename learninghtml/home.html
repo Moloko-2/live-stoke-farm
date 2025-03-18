@@ -1,28 +1,58 @@
 <html>
+    <style>
+        .navbar{
+            background-color:darkgray;
+            padding: 15px 6;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .navbar a{
+            border-radius: 20px;
+            margin: 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .navbar a:hover{
+            transition: 0.3s;
+            background-color:ghostwhite;
+        }
+        .content-box{
+            background-color: grey;
+            border-radius: 36px;
+            margin: 15px;
+            padding: 15px;
+        }
+    </style>
     <head>
        
         <title>Welcome to Moloko's livestock Farm</title>
 
         <link rel="stylesheet" href="css/theme.css">
     </head>
-    <body class="body">
-        <h1 class="h1">Welcome to Moloko's livestock Farm</h1>
+    <body>
+
         
-        <ul class="ul">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="aboutus.html">About us</a></li>
-            <li><a href="contactus.html">Contact us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="news.html">News</a></li>
-        </ul>
+        <div class="navbar">
+            <button style="font-size: 10px;background-color: ivory;border-radius: 10px;"><a href="home.html">Home</a></button>
+            <button style="font-size: 10px;background-color: ivory;border-radius: 10px;"><a href="aboutus.html">About us</a></button>
+            <button style="font-size: 10px;background-color: ivory;border-radius: 10px;"><a href="contactus.html">Contact us</a></button>
+            <button style="font-size: 10px;background-color: ivory;border-radius: 10px;"><a href="services.html">Services</a></button>
+            <button style="font-size: 10px;background-color: ivory;border-radius: 10px;"><a href="news.html">News</a></button>
+    </div>
 
-        <br>
-        <img src="images/horse.jpg" alt="images">
+    <h1 class="h1">Welcome to Moloko's livestock Farm</h1>
 
-      <p class="p"> <em>We raise our livestock from a young age feeding them organic<br>
+    <div class="content-box">
+        <p class="p"><em>We raise our livestock from a young age feeding them organic<br>
         and home grown nutritional foods which supports their growth.<br>
         Raise a variety of animals, such as cows, chickens, pigs, sheep, or goats.<br>
         So make the healthy choice and choose us for quality meat.<br></em></p>
+    </div>
+        <br>
+        <img src="images/horse.jpg" alt="images">
+
+     
 
     </body>
 </html>
